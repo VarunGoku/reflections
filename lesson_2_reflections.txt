@@ -1,0 +1,7 @@
+﻿What happens when you initialize a repository?
+
+It creates a hidden folder called .git, where all the commit history is stored along with other useful metadata.
+
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+It acts as a buffer between the working directory and the repository.
