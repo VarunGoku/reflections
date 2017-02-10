@@ -13,3 +13,6 @@ How can you use the staging area to make sure you have one commit per logical ch
 	As the purpose of the staging area to store the files which are to be committed.
 	We can check the staging area and the working directory and make sure that there will be one logical change per each commit.
 
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	It is best suited when we don't want to lose and have an immediate working original code, and we want to tinker or modify the original code along with the original code.
