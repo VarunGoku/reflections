@@ -20,3 +20,12 @@ What are some situations when branches would be helpful in keeping your history 
 How do the diagrams help you visualize the branch structure?
 
 	It helps us to keep track of each commit's parent and also keep track of a brach's commit histroy.
+
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	It creates a new commit whose parents are the heads of the two branches which are merged.
+
+What are the pros and cons of Git’s automatic merging vs. always doing merges manually?
+
+	The advantages of the automatic merging is it saves us time in comparing different versions, as git automatically helps in merging the files.
+	But the disadvantage with this is, git is not capable of handling certain conflicts even though it doesn't appear as conflicts and we can solve it on our own.
