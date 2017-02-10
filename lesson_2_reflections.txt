@@ -1,7 +1,15 @@
 ﻿What happens when you initialize a repository?
 
-It creates a hidden folder called .git, where all the commit history is stored along with other useful metadata.
+	It creates a hidden folder called .git, where all the commit history is stored along with other useful metadata.
 
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
-It acts as a buffer between the working directory and the repository.
+	Working directory is an ongoing work-in-progress directory.
+	Developers keep making changes. Once, we know there will be no changes to some file, it can be committed.
+	But, there needs to be an intermediate server to commit the files and there should be a possibility to anticipate any unforeseen errors that might occur during commit.
+
+How can you use the staging area to make sure you have one commit per logical change?
+
+	As the purpose of the staging area to store the files which are to be committed.
+	We can check the staging area and the working directory and make sure that there will be one logical change per each commit.
+
