@@ -29,4 +29,5 @@ and what would be harder?
 When would you want to make changes in a separate branch rather than directly in
 master?  What benefits does each approach have?
 
-    Fill in your answer here
+    When we want to make experimental changes without disturbing the main project.
+    Or if we are working on a different feature or version which we don't want to be accessible to others without completing it.
